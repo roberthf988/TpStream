@@ -44,6 +44,7 @@ Un Stream en Java (introduit dans Java 8) est une séquence d'éléments support
 
 ```java
 // Approche traditionnelle
+//signifie que result est une référence à un objet qui implémente l’interface List.
 List<String> result = new ArrayList<>();
 for (String s : list) {
     if (s.startsWith("A")) {
